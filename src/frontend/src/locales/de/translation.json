@@ -1,0 +1,65 @@
+{
+  "title": "KI für politische Bildung",
+  "nav_bar": {
+    "projekt": "Projekt und Team",
+    "technik": "Technische Details",
+    "home": "Ergebnisse"
+  },
+  "home": {
+    "second_title": "Wir haben KI gefragt - Wie verändert sich unsere Stadt 2025 durch die Politik...",
+    "slider_title": "...der Partei",
+    "programs_title": "Vergleich der Parteien",
+    "programs_text": "Wir haben das Programm der Partei mithilfe von KI analysiert, um potentielle visuelle Veränderungen zu ermitteln. Als Datenquelle dient entweder das Parteiprogramm, oder die Antworten zum Kommunalomat."
+  },
+  "details": {
+    "title": "Weitere Informationen",
+    "text": "Wir haben die Daten über das Programm der Partei mithilfe von KI analysiert, um potentielle visuelle Veränderungen zu ermitteln. Dabei entstand der folgende Gedankenprozess (Reasoning):",
+    "closing1": "Die Ergebnisse dieser Analyse wurden im Anschluss mit einem bildgenerativen Modell visualisiert. Weitere Details zu den politischen Inhalten der Partei sind der entsprechenden",
+    "closing2": "zu entnehmen. Weitere Informationen zur technischen Umsetzung findet man auf der 'Über das Projekt' Seite."
+  },
+  "projekt": {
+    "text_top1": "Die Kommunalwahlen stehen bevor, und als KI Wissenschaftler*innen fragen wir uns - kann diese neuartige Technologie auch genutzt werden, um die politische Bildung und lokale Wahlbeteiligung zu fördern? Zum Beispiel, indem man Parteipolitik durch KI verständlicher und zugänglicher aufbereitet? Weitere Details zum Projekt und Team sind in dieser Preview im Sinne des Double-Blind Reviewing versteckt.",
+    "text_top2": "Im Kontext der Kommunalwahl in ANON CITY nutzen wir deshalb experimentell generative KI, um die politischen Programme der Parteien zu visualisieren. Als Teil der globalen <a target=_blank href=https://aiforgood.itu.int/young-ai-leaders-community/>Young AI Leaders Community</a> fördern wir damit das nachhaltige Entwicklungsziel <a target=_blank href=https://www.un.org/sustainabledevelopment/education/>Quality Education</a> der UN (SDG 4). Dabei ist unser Anspruch, die technische Umsetzung lokal zu realisieren und den Entwicklungsprozess transparent machen.",
+    "text_top3": "Unser Projekt wurde geprägt durch den intensiven Austausch mit dem <a target=_blank href=https://lamarr-institute.org>Lamarr Institut</a> (ein KI Forschungszentrum), dem <a target=_blank href=https://www.jrdo.de>Jugendring ANON CITY</a> (welche am <a target=_blank href=https://xn--whlt-loa.nrw/start/kommunalomat/>Kommunalomat</a> mitarbeiten) und Max Mundhenke (Entwickler von <a href=https://bundestagswahl.ai/>bundestagswahl.ai</a>) - vielen Dank für euren Input!",
+    "text_top4": "Für dieses Projekt haben wir (nach eigenem Ermessen) alle Programme analysiert, die spezifisch für ANON CITY von etablierten Parteien entwickelt wurden und mit den Leitprinzipien der nachhaltigen Entwicklung vereinbar sind.",
+    "text_team1": "Die <a target=_blank href=https://youngaileadersANON CITY.github.io>Young AI Leaders ANON CITY</a> untersuchen im Rahmen der <a target=_blank href=https://aiforgood.itu.int/young-ai-leaders-community/>globalen AI for Good Initiative</a>, wie junge Menschen positiven Wandel mithilfe von KI vorantreiben können. Dieses Hub Projekt wurde realisiert durch die folgenden Mitglieder unseres Hubs (klicken für mehr Infos):",
+    "text_team2": "Möchtest du mehr erfahren oder dich mit uns austauschen? Dann <a target=_blank href=https://www.linkedin.com/company/young-ai-leaders-ANON CITY/>vernetze dich gerne mit uns</a> oder kontaktiere uns per Mail:<br><br><a href=mailto:ANON CITYhub.youngaileaders@gmail.com>ANON CITYhub.youngaileaders [at] gmail.com</a>",
+    "text_next1": "Während der Arbeit an diesem Projekt haben wir viel Potenzial identifiziert, auf das wir kurz eingehen möchten.",
+    "text_next2": "Wir glauben, dass zukünftige Projekte eher die Unterschiede der Programme visualisieren sollten, um einen Vergleich zu erleichtern. Ehrlicherweise unterscheiden sich die KI Analyse der Wahlprogramme kaum, man könnte auch zusammenfassen: Alles irgendwie ein bisschen grüner. Damit zeigen unsere Ergebnisse auch die Grenzen von KI: Nuancen abbilden und individuelle Prioritäten verstehen.",
+    "text_next3": "Unsere Methodik lässt sich leicht auf andere Bereiche und Wahlen übertragen. Wir freuen uns über Feedback und Initiativen, die das Projekt mit uns weiterentwickeln und verbessern wollen.",
+    "text_next4": "Außerdem wollen wir das Potenzial und die Herausforderungen des Einsatzes von KI zur Förderung politischer Bildung auch wissenschaftlich untersuchen. Dafür planen wir eine interdisziplinäre Diskussionsrunde, die Expert:innen aus den Bereichen KI-Ethik, Medienwissenschaften, Psychologie und verwandten Bereichen zusammenbringt.",
+    "heading_team": "Über das Team",
+    "heading_next": "Ergebnisse und nächste Schritte"
+  },
+  "technik": {
+    "heading_tech": "Technische Umsetzung",
+    "text_tech1": "Als Datenquelle nutzen wir die Wahlprogramme und die Antworten für die Kommunalomat Umfrage. Diese Inhalte wurden uns entweder direkt von den Parteien zur Verfügung gestellt. Die Daten wurden unabhängig voneiander mit einem <a target=_blank href=https://youtu.be/LPZh9BOjkQs?si=c4_z9lyMp_4JTUE3>generativen Sprachmodell</a> (die KI) verarbeitet, um zu ermitteln, wie sich die Kommune durch das Programm visuell verändern könnte. Diese mögliche Veränderung wird im letzten Schritt durch ein bildgeneratives KI Modell visualisiert.",
+    "text_tech2": "Aufgrund der nicht unbeträchtlichen <a target=_blank href=https://www.gov.uk/government/publications/international-ai-safety-report-2025>Risiken vom Einsatz generativer KI</a> ist es unser persönlicher Anspruch, dieses Projekt möglichst transparent zu realisieren. Als Modelle nutzen wir das <a target=_blank href=https://huggingface.co/Qwen/Qwen3-30B-A3B>Qwen3-30B-A3B</a> zur Analyse (inklusive Reasoning) sowie <a target=_blank href=https://huggingface.co/black-forest-labs/FLUX.1-schnell>FLUX.1 [schnell]</a> für die Bildgenerierung. Außerdem wurden <a target=_blank href=https://huggingface.co/facebook/bart-large-cnn>BART</a> zum Zusammenfassen und <a target=_blank href=https://huggingface.co/Unbabel/TowerInstruct-13B-v0.1>TowerInstruct-13B-v0.1</a> zum Übersetzen der Inhalte genutzt. Weitere technische Details findet man in unserem <a target=_blank href=https://github.com/tmplxz/ai-for-politics>GitHub Repository</a>.",
+    "heading_deploy": "Deployment und Ressourcen",
+    "text_deploy1": "Unsere Berechnungen wurden auf einem lokalen Rechencluster durchgeführt. Im Sinne einer <a target=_blank href=https://link.springer.com/article/10.1007/s10618-024-01020-3/>nachhaltigen Berichterstattung zu KI</a> haben wir dabei auch den Energieverbrauch und die CO₂-Emissionen untersucht. Laut <a target=_blank href=https://github.com/mlco2>CodeCarbon</a> entstehen durch unser Deployment auf zwei NVIDIA A100 GPUs die folgenden Verbrauchswerte:",
+    "text_deploy2": "Diese Verbrauchswerte beschreiben lediglich den letzten Durchlauf, in dem 8 Parteiprogrammen (PDFs) sowie die Kommunalomat Antworten analysiert wurden. Wir schätzen, dass die vorhergehende Entwicklung zusätzliche circa die fünffache Menge an Ressourcen verbraucht hat.",
+    "tab_heading1": "Verarbeitungsschritt",
+    "tab_heading2": "Laufzeit",
+    "tab_heading3": "Energieverbrauch",
+    "tab_heading4": "Emissionen",
+    "tab_translate": "Übersetzen",
+    "tab_summarize": "Zusammenfassen",
+    "tab_reason": "Analyse",
+    "tab_translate_results": "Übersetzen",
+    "tab_generate_images": "Bilderzeugung",
+    "tab_total": "Insgesamt"
+  },
+  "impr": {
+    "name": "Impressum",
+    "content": "Details omitted for double blind reviewing."
+  },
+  "priv": {
+    "name": "Datenschutz",
+    "content": "Details omitted for double blind reviewing."
+  },
+  "disclaimer": {
+    "title": "Hinweis",
+    "text": "Die dargestellten Inhalte sind experimentell und dienen nicht als Wahlempfehlung. Sie wurden mit generativer KI erstellt und sollen lediglich den Diskurs und die politische Bildung anregen. Durch die Verarbeitung mit KI können Positionen der Parteien potentiell ungenau oder falsch dargestellt werden. Bitte informiert euch umfassend für die Wahl."
+  },
+  "scroll_to_top_button": "Nach oben scrollen"
+}

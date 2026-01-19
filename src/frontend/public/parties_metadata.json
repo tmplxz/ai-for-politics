@@ -1,0 +1,58 @@
+{
+  "parties": {
+    "cdu": {
+      "name": "CDU",
+      "url": "https://www.cdu-ANON CITY.de/"
+    },
+    "fdp": {
+      "name": "FDP",
+      "url": "https://www.fdp-ANON CITY.de/"
+    },
+    "gruene": {
+      "name": "Bündnis 90/Die Grünen",
+      "url": "https://www.gruene-ANON CITY.de/"
+    },
+    "linke": {
+      "name": "Die Linke",
+      "url": "https://www.dielinke-ANON CITY.de/politik/aktuell/"
+    },
+    "spd": {
+      "name": "SPD",
+      "url": "https://www.spd-ANON CITY.de/"
+    },
+    "bli": {
+      "name": "Bürgerliste",
+      "url": "https://bli-ANON CITY.de/"
+    },
+    "bvt": {
+      "name": "Bündnis für Vielfalt und Toleranz",
+      "url": "https://www.bvt-ANON CITY.de/"
+    },
+    "diepartei": {
+      "name": "Die PARTEI",
+      "url": "https://die-partei-ANON CITY.de/"
+    },
+    "tierschutz": {
+      "name": "Partei Mensch Umwelt Tierschutz",
+      "url": "https://mitherzfuerdo.de/"
+    },
+    "volt": {
+      "name": "Volt",
+      "url": "https://volt.link/ANON CITY"
+    }
+  },
+  "paths": {
+    "base": "political_content_2025/",
+    "program": "results_p5_Qwen_Qwen3-30B-A3B_program",
+    "kommunalomat": "results_p5_Qwen_Qwen3-30B-A3B_kommunalomat",
+    "images": "img_FLUX.1-schnell_guid0.0_nsteps5",
+    "de": {
+      "prompt": "prompt_de.txt",
+      "reasoning": "prompt_reasoning_de.txt"
+    },
+    "en": {
+      "prompt": "prompt.txt",
+      "reasoning": "prompt_reasoning.txt"
+    }
+  }
+}

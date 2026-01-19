@@ -1,0 +1,49 @@
+# AI for Political Education - Supplementary Material (anonymized for reviewers)
+
+#### We asked AI – How is our city changing through municipal politics?
+This repository entails a modular AI pipeline as well as results from a broad user survey, allowing to explore how generative AI can best support **political education**. For our work, we have analyzed textual information from election platforms with large language models, generated visualizations of these political agendas, and collected feedback from society via a survey. 
+
+The respective research paper "Characterizing the Pros and Cons of Using AI for Political Education" is under review at FAccT '26. The link to the publicy launched webpage as well as obvious city-specific details were omitted for the sake of double-blind reviewing.
+
+## 🚀 Running the AI
+
+We implemented a central [main.py](src/main.py) script that allows to perform all the processing in individual steps. The [run_ai.sh](run_ai.sh) script gives an idea of how these steps connect to each other. 
+
+If you want to run our solution locally, you can follow the steps below. Note we used AI models with up to 30B parameters, requiring a certain amount of processing power and VRAM. 
+
+1. Install dependencies:
+
+    ```bash
+    pip install -r requirements.txt
+    ```
+
+2. Create a `programs` folder and use it to store the political programs that shall be analyzed.
+
+3. Run the AI pipeline:
+
+    ```bash
+    for m in "translate" "summarize" "reason" "translate_results" "generate_images"
+    do
+        python3 src/main.py --mode $m --input_dir programs --output_dir [your directory]
+    done
+    ```
+
+## 🌐 Launching the Webpage Locally
+
+The project includes a Docker setup for running our webpage locally.
+
+1. Make sure [Docker](https://docs.docker.com/get-docker/) and [Docker Compose](https://docs.docker.com/compose/) are installed.
+
+2. From the project root, start the containers:
+
+```bash
+docker compose up
+```
+
+3. Open http://localhost:3000 in your browser.
+
+## 📖 About the Project
+
+This project is experimental and aims to stimulate discourse. **It is not a voting recommendation.**
+
+© Authors of "Characterizing the Pros and Cons of Using AI for Political Education
