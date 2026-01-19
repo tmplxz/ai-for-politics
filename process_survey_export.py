@@ -33,11 +33,11 @@ QMAP = {
     "usef_padvc": "How useful do you think AI is for political education, in terms of various possible applications?  [Personalized advice]",
     "would_use": "Would you use AI-integrated applications for your own political education (e.g.\xa0wahl.chat\xa0oder BTW AI)? ",
     "sm1_i_use_ai": "Please rate the extent to which you agree with the following statements: [I use generative AI to form my own political opinions.]",
-    "sm1_ai_is_reliable": "Please rate the extent to which you agree with the following statements: [AI can analyze and visualize political content reliably and accurately.]",
+    "sm1_ai_unreliable": "Please rate the extent to which you agree with the following statements: [AI can analyze and visualize political content reliably and accurately.]",
     "sm1_risk_democracy": "Please rate the extent to which you agree with the following statements: [Generative AI poses a risk to democracy. ]",
     "sm1_use_respon_ai": "Please rate the extent to which you agree with the following statements: [I trust that political actors use AI responsibly.]",
     "sm1_pro_regulation": "Please rate the extent to which you agree with the following statements: [The use of AI should be more heavily regulated in the context of politics.]",
-    "sm1_i_can_recognize": "Please rate the extent to which you agree with the following statements: [I can recognize AI-generated content.]",
+    "sm1_i_cant_recognize": "Please rate the extent to which you agree with the following statements: [I can recognize AI-generated content.]",
     "sm1_suff_discussion": "Please rate the extent to which you agree with the following statements: [The impact of AI on politics and society is being discussed sufficiently.]",
     "rel_trnsl": "We used various specialized AI models to translate the election programs from German into English, summarized them, analyzed the possible visual effects, and generated images based on the descriptions. How would you rate the reliability of generative AI for these individual tasks? [Translation of the program]",
     "rel_smmrz": "We used various specialized AI models to translate the election programs from German into English, summarized them, analyzed the possible visual effects, and generated images based on the descriptions. How would you rate the reliability of generative AI for these individual tasks? [Summary of the translation]",
@@ -93,6 +93,10 @@ if __name__ == '__main__':
     first_date_responses = df[df['date'].apply(lambda e: e.startswith('2025-12-09'))]
     sm1_cols = [col for col in QMAP.keys() if col.startswith('sm1')]
     df.loc[first_date_responses.index,sm1_cols] = first_date_responses[sm1_cols] * -1 + 6
+
+    # flip two statement questions (1-5 scale) for alignment with later statement questions
+    df["sm1_ai_unreliable"] = df["sm1_ai_unreliable"] * -1 + 6
+    df["sm1_i_cant_recognize"] = df["sm1_i_cant_recognize"] * -1 + 6
 
     # remove mail addresses from last field
     df['qualitative'] = df['qualitative'].map(remove_mail_address)
